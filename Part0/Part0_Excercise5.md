@@ -1,4 +1,5 @@
-Excercise 0.5 Single Page App diagram
+Excise 0.5 New Note Diagram 
+
 
 ```mermaid
 
@@ -30,5 +31,4 @@ sequenceDiagram
     deactivate server    
 
     Note right of browser: The browser executes the callback function that renders the notes 
-
 ```
