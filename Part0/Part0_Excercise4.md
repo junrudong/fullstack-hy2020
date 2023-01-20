@@ -13,7 +13,7 @@ sequenceDiagram
     deactivate server
 
    
-    Note left of server: Server recieve the input update the JSON
+    Note right of server: Server recieve the input update the JSON
 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/notes
     activate server
@@ -35,5 +35,5 @@ sequenceDiagram
     server-->>browser: [{ "content: 'a', date: '2023-01-20T15:35:52.188Z'}, ... ]
     deactivate server       
 
-    Note right of browser: The browser executes the callback function that renders the notes
+    Note right of browser: The browser executes the callback function that renders the notes containing the updated note
 ```
