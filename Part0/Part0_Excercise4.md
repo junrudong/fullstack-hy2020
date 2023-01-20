@@ -1,4 +1,4 @@
-Excise 0.4 New Note Diagram 
+Excercise 0.4 New Note Diagram 
 
 ```mermaid
 sequenceDiagram
