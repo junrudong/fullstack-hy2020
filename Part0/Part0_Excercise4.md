@@ -1,6 +1,8 @@
+```mermaid
+
 0.4 New Note Diagram
 
-```mermaid
+
     participant browser
     participant server
     
