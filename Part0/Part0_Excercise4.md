@@ -9,7 +9,7 @@ sequenceDiagram
     Note left of browser: User input"a", Click "submit"
     browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note
     activate server
-    server-->>browser: Status:HTTP code 203: URL redirect
+    server-->>browser: Status:HTTP code 302: URL redirect
     deactivate server
 
    
