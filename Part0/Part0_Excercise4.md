@@ -1,6 +1,6 @@
 ```mermaid
 
-0.4 New Note Diagram
+New Note Diagram 0.4 
 
 
     participant browser
