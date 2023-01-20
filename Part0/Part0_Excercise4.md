@@ -28,14 +28,14 @@ sequenceDiagram
     deactivate server    
 
     Note right of browser: The browser executes the callback function that renders the notes
-
+    Note left of browser: User input"a", Click "submit"
     browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note
     activate server
     server-->>browser: URL redirect
     deactivate server
 
-    Note left of browser: Input"a", Click "submit"
-    Note right of server: server recieve the input update the JSN
+   
+    Note left of server: Server recieve the input update the JSON
 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/notes
     activate server
